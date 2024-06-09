@@ -17,7 +17,6 @@ cd CampusNest
 
 **Environment Files**: Navigate to the `backend` folder and create `.env` file. Add the following content to the file:
 
-    ```
     MONGODB_CONNECTION_STRING=
 
     JWT_SECRET_KEY=
@@ -30,7 +29,6 @@ cd CampusNest
 
     # Stripe
     STRIPE_API_KEY=
-    ```
     
  - Create accounts at MongoDB, CLoudinary and Stripe to setup the keys. `JWT_SECRET_KEY` can be any secret or randomly generated key.  
  - The `FRONTEND_URL` should point to the URL where the frontend application is running (typically `http://localhost:3000`).
