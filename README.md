@@ -15,7 +15,7 @@ cd CampusNest
 
 ## Backend Configuration
 
-**Environment Files**: Navigate to the `backend` folder and create `.env` file. Add the following content to the file:
+**Environment File**: Navigate to the `backend` folder and create `.env` file. Add the following content to the file:
 
     MONGODB_CONNECTION_STRING=
 
@@ -36,7 +36,7 @@ cd CampusNest
 
 ## Frontend Configuration
 
-**Environment Files**: Navigate to the `frontend` folder and create a file: `.env`:
+**Environment File**: Navigate to the `frontend` folder and create a file: `.env`:
 
     ```plaintext
     VITE_API_BASE_URL=
