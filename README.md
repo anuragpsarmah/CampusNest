@@ -37,11 +37,9 @@ cd CampusNest
 ## Frontend Configuration
 
 **Environment File**: Navigate to the `frontend` folder and create a file: `.env`:
-
-    ```plaintext
+    
     VITE_API_BASE_URL=
     VITE_STRIPE_PUB_KEY=
-    ```
     
 - The `VITE_API_BASE_URL` should point to the URL where the backend application is running (typically `http://localhost:7000`).
 
