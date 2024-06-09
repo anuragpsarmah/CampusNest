@@ -1,14 +1,12 @@
 # Setting up CampusNest
 
-Follow the instructions below to setup CampusNest on your local machine.
+Below are the instructions to setup CampusNest locally.
 
 ## Prerequisites
 
-Node.js must be installed on your system.
+Node.js must be installed on the system.
 
 ## Cloning the Repository
-
-Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/anuragpsarmah/CampusNest.git
@@ -19,7 +17,7 @@ cd CampusNest
 
 **Environment Files**: Navigate to the `backend` folder and create `.env` file. Add the following content to the file:
 
-    ```plaintext
+    ```
     MONGODB_CONNECTION_STRING=
 
     JWT_SECRET_KEY=
